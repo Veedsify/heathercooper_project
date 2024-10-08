@@ -28,7 +28,7 @@ const HomeAboutSection = ({
                <div className={`container mx-auto`}>
                     <div className={`flex flex-col md:flex-row items-center`}>
                          <div className={`flex-1 text-center md:text-left`}>
-                              <div className="p-10">
+                              <div className={`p-10 ${flipped ? 'pr-0' : 'pl-0'}`}>
                                    <h2 className={`text-3xl font-bold ${withBg ? "text-white" : "text-gray-800"} ${fullWidth && "mt-16"}`}>
                                         {title}
                                    </h2>

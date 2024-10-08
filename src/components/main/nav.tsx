@@ -32,7 +32,7 @@ const Navbar = ({ }: NavbarProps) => {
 
      return (
           <nav
-               className={`bg-black bg-opacity-0 backdrop-blur-sm top-0 left-0 w-full z-50 shadow-sm duration-300 transition-all ${isFloating ? 'py-8 fixed bg-white translate-y-0 z-50' : 'py-8 absolute'}`}
+               className={`backdrop-blur-sm top-0 left-0 w-full z-50 shadow-sm duration-300 transition-all ${isFloating ? 'py-6 fixed bg-white z-50' : 'py-8 absolute bg-black bg-opacity-0'}`}
           >
                <div className="container mx-auto">
                     <div className="flex justify-between items-center border-gray-50">
