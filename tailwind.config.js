@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Instrument Sans", "sans-serif"],
-        mono: ["Instrument Sans", "monospace"],
+        sans: ["DM Sans", "sans-serif"],
+        mono: ["DM Sans", "monospace"],
       }
     },
   },

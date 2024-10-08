@@ -1,4 +1,5 @@
 import Hero from "../components/main/hero";
+import HomeAboutSection from "../components/main/home_about_section";
 import Navbar from "../components/main/nav";
 
 const Home = () => {
@@ -11,6 +12,9 @@ const Home = () => {
                     />
                </header>
                <Hero />
+               <HomeAboutSection fullWidth/>
+               <HomeAboutSection flipped withBg fullWidth/>
+               <HomeAboutSection fullWidth/>
           </>
      );
 }

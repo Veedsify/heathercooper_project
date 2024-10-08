@@ -32,7 +32,7 @@ const Navbar = ({ }: NavbarProps) => {
 
      return (
           <nav
-               className={`bg-black bg-opacity-0 backdrop-blur-sm top-0 left-0 w-full z-50 shadow-sm duration-300 transition-all ${isFloating ? 'py-2 fixed bg-white translate-y-0' : 'py-8 absolute'}`}
+               className={`bg-black bg-opacity-0 backdrop-blur-sm top-0 left-0 w-full z-50 shadow-sm duration-300 transition-all ${isFloating ? 'py-8 fixed bg-white translate-y-0 z-50' : 'py-8 absolute'}`}
           >
                <div className="container mx-auto">
                     <div className="flex justify-between items-center border-gray-50">
@@ -42,7 +42,7 @@ const Navbar = ({ }: NavbarProps) => {
                               </a>
                          </div>
                          <div>
-                              <ul className="flex space-x-3">
+                              <ul className="md:flex space-x-3 hidden">
                                    {navlinks.map((item, index) => (
                                         <NavLink name={item.name} link={item.link} key={index} isActive={pathname === item.pageId} />
                                    ))}
@@ -58,7 +58,6 @@ const Navbar = ({ }: NavbarProps) => {
                               }
                          </div>
                     </div>
-
                </div>
           </nav>
      );
