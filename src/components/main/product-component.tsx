@@ -19,12 +19,12 @@ const ProductComponents = () => {
                                 <>
                                     <div className={`grid gap-4 ${index === 1 ? "col-span-2" : index === 2 ? "col-span-1" : "col-span-full"}`}>
                                         <div className="group relative">
-                                            <img className="h-auto w-full rounded-lg" src="/images/product_categories/beverages.jpg"
+                                            <img className="h-auto w-full rounded-lg" src={category.coverImage}
                                                 alt="" />
                                             <Link to={`/product/${category.id}`}
-                                                className={"absolute inset-0 top-0 bottom-0 w-full duration-300 h-full bg-black bg-opacity-30 flex items-center justify-center opacity-100 group-hover:opacity-0 md:backdrop-blur-sm"}>
+                                                className={"absolute inset-0 top-0 bottom-0 w-full duration-200 ease-in-out h-full bg-black bg-opacity-40 flex items-center justify-center opacity-100 group-hover:opacity-0 md:backdrop-blur-[2px]"}>
                                                 <span
-                                                    className="font-bont text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-amber-500 "
+                                                    className="font-medium text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-amber-500 "
                                                 >
                                                     {category.name}
                                                 </span>

@@ -9,8 +9,7 @@ const About = () => {
         <>
             <NavWithContent
                 title="About Us"
-                image="/images/backgrounds
-                /buildings.jpg"
+                image="/images/backgrounds/buildings.jpg"
             />
             <section className="pt-10">
                 <AboutContent
