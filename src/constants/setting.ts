@@ -1,5 +1,5 @@
 export const SETTINGS = {
      NUMBERS: {
-          FLOATING_HEIGHT: 400,
+          FLOATING_HEIGHT: 700,
      }
 }

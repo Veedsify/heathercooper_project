@@ -4,41 +4,40 @@ import NavLink from "../sub/navlink";
 import { navlinks } from "../../constants/navlinks";
 import { useEffect, useState } from "react";
 import { SETTINGS } from "../../constants/setting";
-
 type NavbarProps = {
      title?: string;
      image: string;
      type: 'full' | 'mid' | 'small';
 }
-
-
 const Navbar = ({ }: NavbarProps) => {
      const pathname = useLocation().pathname;
      const [isFloating, setIsFloating] = useState(false);
-
      useEffect(() => {
           const handleScroll = () => {
                const scrollHeight = window.scrollY;
                setIsFloating(scrollHeight > SETTINGS.NUMBERS.FLOATING_HEIGHT);
           };
-
           window.addEventListener('scroll', handleScroll);
-
           // Clean up the event listener on component unmount
           return () => {
                window.removeEventListener('scroll', handleScroll);
           };
      }, []);
-
      return (
           <nav
-               className={`backdrop-blur-sm top-0 left-0 w-full z-50 shadow-sm duration-300 transition-all ${isFloating ? 'py-6 fixed bg-white z-50' : 'py-8 absolute bg-black bg-opacity-0'}`}
+               className={`w-full duration-200 ease-in-out px-2 ${isFloating
+                    ? 'md:fixed top-0 z-50 py-4 bg-cyan-950 md:bg-white md:py-6'
+                    : 'py-4 md:py-6 bg-cyan-950 md:bg-white md:bg-opacity-0'
+                    }`}
           >
                <div className="container mx-auto">
                     <div className="flex justify-between items-center border-gray-50">
                          <div>
-                              <a href="/">
-                                   <img src="/logo.svg" alt="Logo" width={70}/>
+                              <a href="/" className="flex items-center gap-2">
+                                   <img src="/logo.svg" alt="Logo" width={70} />
+                                   <span className="font-bold text-white md:text-black">
+                                        Ice Investmnet
+                                   </span>
                               </a>
                          </div>
                          <div>
@@ -62,5 +61,4 @@ const Navbar = ({ }: NavbarProps) => {
           </nav>
      );
 }
-
 export default Navbar;

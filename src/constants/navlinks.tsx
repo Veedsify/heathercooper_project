@@ -17,18 +17,18 @@ export const navlinks: NavLinksProps = [
      }, {
           name: 'Products',
           link: '/products',
-          pageId: 'products',
+          pageId: '/products',
      }, {
           name: 'Carrers',
           link: '/carrers',
-          pageId: 'carrers',
+          pageId: '/carrers',
      }, {
           name: 'CSR',
-          link: '/csr',
-          pageId: 'csr',
+          link: '/cooperate-social-responsibility',
+          pageId: '/cooperate-social-responsibility',
      }, {
           name: 'Contact Us',
           link: '/contact',
-          pageId: 'contact',
+          pageId: '/contact',
      }
 ]

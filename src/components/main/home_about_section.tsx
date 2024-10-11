@@ -10,6 +10,7 @@ type HomeAboutSectionProps = {
      withBg?: boolean;
      bgColor?: string;
      fullWidth?: boolean;
+     showButton?: boolean;
 };
 
 const HomeAboutSection = ({
@@ -22,6 +23,7 @@ const HomeAboutSection = ({
      withBg = false,
      bgColor = "bg-[#444]",
      fullWidth = false,
+     showButton = false,
 }: HomeAboutSectionProps) => {
      return (
           <section className={`${withBg ? bgColor : 'bg-white'} z-40 relative`}>
@@ -29,18 +31,21 @@ const HomeAboutSection = ({
                     <div className={`flex flex-col md:flex-row items-center`}>
                          <div className={`flex-1 text-center md:text-left`}>
                               <div className={`p-10 ${flipped ? 'pr-0' : 'pl-0'}`}>
-                                   <h2 className={`text-3xl font-bold ${withBg ? "text-white" : "text-gray-800"} ${fullWidth && "mt-16"}`}>
+                                   <h2 className={`relative inline-block text-3xl font-bold ${withBg ? "text-white" : "text-gray-800"} ${fullWidth && "mt-16"}`}>
                                         {title}
+                                        <span className="h-[2px] w-1/3 absolute bottom-0 left-0 bg-amber-500"></span>
                                    </h2>
-                                   <p className={`text-gray-600 mt-4 leading-relaxed ${withBg ? "text-white" : "text-gray-600"}`}>
+                                   <p className={`text-gray-600 mt-4 max-w-xl leading-loose text-sm ${withBg ? "text-white" : "text-gray-600"}`}>
                                         {description}
                                    </p>
-                                   <Link
-                                        to={buttonLink}
-                                        className="mt-6 bg-amber-500 text-white px-8 py-3 rounded inline-block hover:bg-amber-600 transition duration-200"
-                                   >
-                                        {button}
-                                   </Link>
+                                   {showButton && (
+                                        <Link
+                                             to={buttonLink}
+                                             className="mt-6 bg-amber-500 text-white px-8 py-3 rounded inline-block hover:bg-amber-600 transition duration-200"
+                                        >
+                                             {button}
+                                        </Link>
+                                   )}
                               </div>
                          </div>
                          <div className={`flex-1 ${flipped ? "md:order-first" : ""} mt-6 md:mt-0`}>
