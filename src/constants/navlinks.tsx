@@ -20,8 +20,8 @@ export const navlinks: NavLinksProps = [
           pageId: '/products',
      }, {
           name: 'Carrers',
-          link: '/carrers',
-          pageId: '/carrers',
+          link: '/careers',
+          pageId: '/careers',
      }, {
           name: 'CSR',
           link: '/cooperate-social-responsibility',

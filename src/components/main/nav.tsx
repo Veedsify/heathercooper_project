@@ -27,7 +27,7 @@ const Navbar = ({ }: NavbarProps) => {
           <nav
                className={`w-full duration-200 ease-in-out px-2 ${isFloating
                     ? 'md:fixed top-0 z-50 py-4 bg-cyan-950 md:bg-white md:py-6'
-                    : 'py-4 md:py-6 bg-cyan-950 md:bg-white md:bg-opacity-0'
+                    : 'py-4 md:py-6 bg-cyan-950 md:bg-white md:bg-opacity-5 md:backdrop-blur-[2px]'
                     }`}
           >
                <div className="container mx-auto">
@@ -35,8 +35,8 @@ const Navbar = ({ }: NavbarProps) => {
                          <div>
                               <a href="/" className="flex items-center gap-2">
                                    <img src="/logo.svg" alt="Logo" width={70} />
-                                   <span className="font-bold text-white md:text-black">
-                                        Ice Investmnet
+                                   <span className="font-bold text-white text-2xl hidden md:block md:text-black">
+                                        Ice Investment
                                    </span>
                               </a>
                          </div>
