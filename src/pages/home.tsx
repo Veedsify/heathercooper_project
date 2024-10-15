@@ -5,7 +5,7 @@ import Navbar from "../components/main/nav";
 const Home = () => {
      return (
           <>
-               <header className="relative select-none min-h-[118px] transition-all duration-300">
+               <header className="relative z-50 select-none min-h-max transition-all duration-300">
                     <Navbar
                          image="https://via.placeholder.com/150"
                          type="full"
@@ -18,12 +18,12 @@ const Home = () => {
                     buttonLink="/about"
                     button="Abous Us"
                     showButton
-                    image="https://images.pexels.com/photos/3063470/pexels-photo-3063470.jpeg?auto=compress&w=1000"
+                    image="/images/about/industry.jpg"
                     fullWidth />
                <HomeAboutSection
                     title="International Quality Standards"
                     description="Our group strives to maintain a culture of total quality management- ensuring quality in every stage of what we do. From the products imported to the goods we manufacture in Nigeria. Our factory complies with international quality standards, ISO 9001-2015 to ensure that we give our customers the best. "
-                    image="https://images.pexels.com/photos/70418/pexels-photo-70418.jpeg?auto=compress&w=1000"
+                    image="/images/about/laboratory.jpg"
                     flipped
                     withBg
                     fullWidth
@@ -31,7 +31,7 @@ const Home = () => {
                <HomeAboutSection
                     title="Global Distribution Network"
                     description="Over the years we’ve developed and grown a considerably enormous global distribution network as well as an army of strategic partners on every continent."
-                    image="https://images.pexels.com/photos/70418/pexels-photo-70418.jpeg?auto=compress&w=1000"
+                    image="/images/about/global.jpg"
                     fullWidth
                />
           </>

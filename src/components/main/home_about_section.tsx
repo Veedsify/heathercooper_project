@@ -28,12 +28,12 @@ const HomeAboutSection = ({
      return (
           <section className={`${withBg ? bgColor : 'bg-white'} z-40 relative`}>
                <div className={`container mx-auto`}>
-                    <div className={`flex flex-col md:flex-row items-center`}>
+                    <div className={`md:flex items-center`}>
                          <div className={`flex-1 text-center md:text-left`}>
-                              <div className={`p-10 ${flipped ? 'pr-0' : 'pl-0'}`}>
+                              <div className={`p-10 ${flipped ? 'md:pr-0' : 'md:pl-0'}`}>
                                    <h2 className={`relative inline-block text-3xl font-bold ${withBg ? "text-white" : "text-gray-800"} ${fullWidth && "mt-16"}`}>
                                         {title}
-                                        <span className="h-[2px] w-1/3 absolute bottom-0 left-0 bg-amber-500"></span>
+                                        <span className="h-[2px] w-1/3 absolute bottom-0 md:left-0 left-1/2 md:-translate-x-0 -translate-x-1/2 bg-amber-500"></span>
                                    </h2>
                                    <p className={`text-gray-600 mt-4 max-w-xl leading-loose text-sm ${withBg ? "text-white" : "text-gray-600"}`}>
                                         {description}
