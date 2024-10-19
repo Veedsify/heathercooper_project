@@ -71,12 +71,6 @@ const Hero = () => {
                          </div>
                     </div>
                </SwiperSlide>
-               <SwiperSlide className="relative h-full">
-                    {/* Additional slides can be added here */}
-               </SwiperSlide>
-               <SwiperSlide className="relative h-full">
-                    {/* Additional slides can be added here */}
-               </SwiperSlide>
           </Swiper>
      );
 }

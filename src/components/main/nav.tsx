@@ -58,7 +58,7 @@ const Navbar = ({ }: NavbarProps) => {
                     <div className="flex justify-between lg:items-center border-gray-50">
                          <div>
                               <a href="/" className="flex items-center gap-2">
-                                   <img src="/logo.svg" alt="Logo" width={70} />
+                                   <img src="/icelogo.png" alt="Logo" width={70} />
                                    <span className="font-bold text-white text-2xl hidden xl:block lg:text-black">
                                         Ice Investment
                                    </span>
@@ -91,7 +91,7 @@ const Navbar = ({ }: NavbarProps) => {
                          <div className="space-x-2 hidden lg:block">
                               {
                                    socialmedia.map((item, index) => (
-                                        <Link to={item.link} className="rounded-full border border-amber-500 inline-block aspect-square p-2" key={index}>
+                                        <Link target="_blank" to={item.link} className="rounded-full border border-amber-500 inline-block aspect-square p-2" key={index}>
                                              {item.icon}
                                         </Link>
                                    ))
