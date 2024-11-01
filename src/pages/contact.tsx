@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet";
 import NavWithContent from "../components/main/navwithcontent";
 
 const Contact = () => {
      return (
           <>
+               <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>
+                         Contact Us | Ice Investment Nig Ltd
+                    </title>
+               </Helmet>
                <NavWithContent
                     title="Contact Us"
                     image="/images/backgrounds/buildings.jpg"
@@ -69,38 +76,38 @@ const Contact = () => {
                                                        Head Office
                                                   </h3>
                                                   <p className="text-sm mb-5">
-                                                       Plot 1401B , Tiamiyu Savage Street, P.O Box 74188
+                                                       Plot 1401B, Tiamiyu Savage Street, P.O Box 74188
                                                        <br />
                                                        Victoria Island, Lagos, Nigeria.
                                                   </p>
-                                                  <p className="text-sm mb-2">
+                                                  {/* <p className="text-sm mb-2">
                                                        <span className="font-bold">Phone:</span> +234 1 271 7150
-                                                  </p>
+                                                  </p> */}
                                                   <p className="text-sm">
                                                        <span className="font-bold">Email: </span>
                                                        <a href="mailto:example@mail.com">
-                                                            example@mail.com
+                                                            iceinvestment2015@gmail.com
                                                        </a>
                                                   </p>
                                              </div>
                                              <div>
                                                   <h3 className="font-bold capitalize mb-2">
-                                                       Head Office
+                                                       Branch Office
                                                   </h3>
                                                   <p className="text-sm mb-5">
-                                                       Plot 1401B , Tiamiyu Savage Street, P.O Box 74188
+                                                       No 136 Happy Home Avenue Industrial
                                                        <br />
-                                                       Victoria Island, Lagos, Nigeria.
+                                                       Layout, Kirikiri Town, Apapa Lagos.
                                                   </p>
-                                                  <p className="text-sm mb-2">
+                                                  {/* <p className="text-sm mb-2">
                                                        <span className="font-bold">Phone:</span> +234 1 271 7150
-                                                  </p>
-                                                  <p className="text-sm">
+                                                  </p> */}
+                                                  {/* <p className="text-sm">
                                                        <span className="font-bold">Email: </span>
                                                        <a href="mailto:example@mail.com">
-                                                            example@mail.com
+                                                            iceinvestment2015@gmail.com
                                                        </a>
-                                                  </p>
+                                                  </p> */}
                                              </div>
                                         </div>
                                         <hr className="border-gray-800" />
@@ -109,41 +116,41 @@ const Contact = () => {
                                         <div className="flex gap-10 mb-10">
                                              <div>
                                                   <h3 className="font-bold capitalize mb-2">
-                                                       Head Office
+                                                       Branch  Office
                                                   </h3>
-                                                  <p className="text-sm mb-5">
-                                                       Plot 1401B , Tiamiyu Savage Street, P.O Box 74188
+                                                  {/* <p className="text-sm mb-5">
+                                                       No 8 Broad Street Western House Fourth Floor
                                                        <br />
-                                                       Victoria Island, Lagos, Nigeria.
-                                                  </p>
-                                                  <p className="text-sm mb-2">
+                                                       Lagos Island
+                                                  </p> */}
+                                                  {/* <p className="text-sm mb-2">
                                                        <span className="font-bold">Phone:</span> +234 1 271 7150
-                                                  </p>
+                                                  </p> */}
                                                   <p className="text-sm">
                                                        <span className="font-bold">Email: </span>
                                                        <a href="mailto:example@mail.com">
-                                                            example@mail.com
+                                                            iceinvestment2015@gmail.com
                                                        </a>
                                                   </p>
                                              </div>
                                              <div>
                                                   <h3 className="font-bold capitalize mb-2">
-                                                       Head Office
+                                                       Branch Office
                                                   </h3>
                                                   <p className="text-sm mb-5">
-                                                       Plot 1401B , Tiamiyu Savage Street, P.O Box 74188
+                                                       Shop 24, Block B16, Usman Halilu Street? Garki Model market.
                                                        <br />
-                                                       Victoria Island, Lagos, Nigeria.
+                                                       Abuja.
                                                   </p>
-                                                  <p className="text-sm mb-2">
+                                                  {/* <p className="text-sm mb-2">
                                                        <span className="font-bold">Phone:</span> +234 1 271 7150
-                                                  </p>
-                                                  <p className="text-sm">
+                                                  </p> */}
+                                                  {/* <p className="text-sm">
                                                        <span className="font-bold">Email: </span>
                                                        <a href="mailto:example@mail.com">
-                                                            example@mail.com
+                                                            iceinvestment2015@gmail.com
                                                        </a>
-                                                  </p>
+                                                  </p> */}
                                              </div>
                                         </div>
                                         <hr className="border-gray-800" />

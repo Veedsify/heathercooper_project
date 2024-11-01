@@ -4,28 +4,35 @@ type CatalogsType = {
           name: string;
           image: string;
           coverImage: string;
-          subcategories: {
+          products?: {
                id: string;
                name: string;
-               countries?: {
-                    id: string;
-                    name: string;
-                    products: {
-                         id: string;
-                         name: string;
-                         price: number;
-                         description: string;
-                         image: string;
-                    }[]
-               }[];
-               products?: {
-                    id: string;
-                    name: string;
-                    price: number;
-                    description: string;
-                    image: string;
-               }[]
+               price: number;
+               description: string;
+               image: string;
           }[]
+          // subcategories: {
+          //      id: string;
+          //      name: string;
+          //      countries?: {
+          //           id: string;
+          //           name: string;
+          //           products: {
+          //                id: string;
+          //                name: string;
+          //                price: number;
+          //                description: string;
+          //                image: string;
+          //           }[]
+          //      }[];
+          //      products?: {
+          //           id: string;
+          //           name: string;
+          //           price: number;
+          //           description: string;
+          //           image: string;
+          //      }[]
+          // }[]
      }[]
 }
 
@@ -37,59 +44,50 @@ export const catalogs: CatalogsType = {
                "name": "Beverages",
                "image": '/images/thumbs/wine.png',
                "coverImage": '/images/product_categories/beverages.jpg',
-               "subcategories": [
+               "products": [
                     {
-                         "id": "bev-red-wine",
-                         "name": "Red Wine",
-                         "countries": [
-                              {
-                                   "id": "country-fra",
-                                   "name": "France",
-                                   "products": [
-                                        {
-                                             "id": "wine-123",
-                                             "name": "Château Margaux 2015",
-                                             "price": 999.99,
-                                             "description": "A premium Bordeaux with rich flavors of dark fruits and elegant tannins",
-                                             "image": "/images/chateau-margaux-2015.jpg"
-                                        }
-                                   ]
-                              },
-                              {
-                                   "id": "country-ita",
-                                   "name": "Italy",
-                                   "products": [
-                                        {
-                                             "id": "wine-456",
-                                             "name": "Barolo Riserva 2018",
-                                             "price": 199.99,
-                                             "description": "A full-bodied Nebbiolo with notes of tar and roses",
-                                             "image": "/images/barolo-riserva-2018.jpg"
-                                        }
-                                   ]
-                              }
-                         ]
+                         id: "capri-sun",
+                         name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/caprisun.jpg"
+                    },
+                    {
+                         id: "chi-exotic",
+                         name: "Chivita Exotic",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/chiexotic.jpg"
+                    },
+                    {
+                         id: "chi-vita",
+                         name: "Chivita",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/chivita.jpg"
+                    },
+                    {
+                         id: "hollandia",
+                         name: "Hollandia",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/hollandia.jpg"
                     },
                ]
+
           },
           {
                "id": "cosmetics",
                "name": "Cosmetics",
                "image": '/images/thumbs/cosmetics.png',
                "coverImage": '/images/product_categories/cosmetics.jpg',
-               "subcategories": [
+               "products": [
                     {
-                         id: "hawaii",
-                         name: "HAWAII",
-                         products: [
-                              {
-                                   id: "hawaii-1",
-                                   name: "HAWAIIAN TROPIC",
-                                   price: 10.99,
-                                   description: "A tropical sunscreen with SPF 30",
-                                   image: "/images/hawaiian-tropic.jpg"
-                              }
-                         ]
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
                     }
                ]
           }, {
@@ -97,19 +95,13 @@ export const catalogs: CatalogsType = {
                "name": "Pharmaceuticals",
                "image": '/images/thumbs/pills.png',
                "coverImage": '/images/product_categories/pharma.jpg',
-               "subcategories": [
+               "products": [
                     {
-                         id: "hawaii",
-                         name: "HAWAII",
-                         products: [
-                              {
-                                   id: "hawaii-1",
-                                   name: "HAWAIIAN TROPIC",
-                                   price: 10.99,
-                                   description: "A tropical sunscreen with SPF 30",
-                                   image: "/images/hawaiian-tropic.jpg"
-                              }
-                         ]
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
                     }
                ]
           }, {
@@ -117,19 +109,13 @@ export const catalogs: CatalogsType = {
                "name": "Food",
                "image": '/images/thumbs/food.png',
                "coverImage": '/images/product_categories/food.jpg',
-               "subcategories": [
+               "products": [
                     {
-                         id: "hawaii",
-                         name: "HAWAII",
-                         products: [
-                              {
-                                   id: "hawaii-1",
-                                   name: "HAWAIIAN TROPIC",
-                                   price: 10.99,
-                                   description: "A tropical sunscreen with SPF 30",
-                                   image: "/images/hawaiian-tropic.jpg"
-                              }
-                         ]
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
                     }
                ]
           }, {
@@ -137,7 +123,44 @@ export const catalogs: CatalogsType = {
                "name": "Real Estate",
                "image": '/images/thumbs/house.png',
                "coverImage": '/realestate-cover.jpg',
-               "subcategories": []
+               "products": [
+                    {
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
+                    }
+               ]
+          }, {
+               "id": "wine",
+               "name": "Wine",
+               "image": '/images/thumbs/wine.png',
+               "coverImage": '/realestate-cover.jpg',
+               "products": [
+                    {
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
+                    }
+               ]
+          },
+          {
+               "id": "sports",
+               "name": "Sports",
+               "image": '/images/thumbs/sports.png',
+               "coverImage": '/realestate-cover.jpg',
+               "products": [
+                    {
+                         id: "hawaii-1",
+                         name: "HAWAIIAN TROPIC",
+                         price: 10.99,
+                         description: "A tropical sunscreen with SPF 30",
+                         image: "/images/products/hawaiian-tropic.jpg"
+                    }
+               ]
           }
      ]
 }

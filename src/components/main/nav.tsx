@@ -50,19 +50,19 @@ const Navbar = ({ }: NavbarProps) => {
      return (
           <nav
                className={`w-full duration-200 ease-in-out px-2 ${isFloating
-                    ? 'lg:fixed top-0 z-50 py-4 bg-cyan-950 lg:bg-white lg:py-6'
+                    ? 'lg:fixed top-0 z-50 py-4 bg-cyan-950 lg:bg-white lg:shadow lg:py-6'
                     : 'py-4 lg:py-6 bg-cyan-950 lg:bg-white lg:bg-opacity-5 lg:backdrop-blur-[2px]'
                     }`}
           >
                <div className="container mx-auto">
                     <div className="flex justify-between lg:items-center border-gray-50">
                          <div>
-                              <a href="/" className="flex items-center gap-2">
-                                   <img src="/icelogo.png" alt="Logo" width={70} />
-                                   <span className="font-bold text-white text-2xl hidden xl:block lg:text-black">
+                              <Link to="/" className="flex items-center gap-2">
+                                   <img src="/logo.png" alt="Logo" width={70} />
+                                   <span className="font-bold tracking-tighter text-white text-xl hidden xl:block lg:text-black">
                                         Ice Investment
                                    </span>
-                              </a>
+                              </Link>
                          </div>
                          <div
                               className={`${isMenuOpen ? 'absolute lg:static w-full left-0 h-full -bottom-full lg:mt-0 mt-8 flex-1' : 'hidden lg:block'} duration-300 ease-in-out`}

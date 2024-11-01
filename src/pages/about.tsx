@@ -3,10 +3,19 @@ import AboutValues from "../components/main/about-values";
 import NavWithContent from "../components/main/navwithcontent";
 import AboutPortfolio from "../components/main/about-portfolio.tsx";
 import AboutManagement from "../components/main/about-management.tsx";
+import { Helmet } from "react-helmet";
+import { managementTeam } from "../constants/management-team.tsx";
+import { marketingTeam } from "../constants/marketing-team.tsx";
 
 const About = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>
+                    About Us | Ice Investment Nig Ltd
+                </title>
+            </Helmet>
             <NavWithContent
                 title="About Us"
                 image="/images/backgrounds/buildings.jpg"
@@ -14,19 +23,21 @@ const About = () => {
             <section className="pt-10">
                 <AboutContent
                     title="Our Vission"
-                    content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus velit, qui accusantium, nulla quisquam, distinctio nemo unde debitis quam nobis enim expedita facere voluptatum ad repellat. Unde, omnis molestiae. Repudiandae!"
+                    content="To become the largest producers and distributors of quality consumer products in the World."
                 />
                 <AboutContent
                     title="Our Mission"
-                    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus velit, qui accusantium, nulla quisquam, distinctio nemo unde debitis quam nobis enim expedita facere voluptatum ad repellat. Unde, omnis molestiae. Repudiandae!"
+                    content="Building healthier Communities by providing affordable and quality products and services"
                 />
                 <AboutValues
-                    title="Our Values"
+                    title="Core Values"
                     content={[
-                        'Quality',
-                        'Innovation',
                         'Integrity',
-                        'Teamwork',
+                        'Respect',
+                        'Quality',
+                        'Team work',
+                        'Innovation',
+                        'Commitment'
                     ]}
                 />
                 <AboutValues
@@ -39,7 +50,14 @@ const About = () => {
                     ]}
                 />
                 <AboutPortfolio />
-                <AboutManagement />
+                <AboutManagement 
+                    title="Management Team"
+                    teams={managementTeam}
+                />
+                <AboutManagement 
+                    title="Marketing Team"
+                    teams={marketingTeam}
+                />
             </section>
         </>
     );

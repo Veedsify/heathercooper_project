@@ -14,26 +14,24 @@ const ProductComponents = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {catalogs.categories.map((category, index) => {
-                        if (category.subcategories.length > 0) {
-                            return (
-                                <>
-                                    <div className={`grid gap-4 ${index === 1 ? "col-span-2" : index === 2 ? "col-span-1" : "col-span-full"}`}>
-                                        <div className="group relative">
-                                            <img className="h-auto w-full rounded-lg" src={category.coverImage}
-                                                alt="" />
-                                            <Link to={`/product/${category.id}`}
-                                                className={"absolute inset-0 top-0 bottom-0 w-full duration-200 ease-in-out h-full bg-black bg-opacity-40 flex items-center justify-center opacity-100 group-hover:opacity-0 md:backdrop-blur-[2px]"}>
-                                                <span
-                                                    className="font-medium text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-amber-500 "
-                                                >
-                                                    {category.name}
-                                                </span>
-                                            </Link>
-                                        </div>
+                        return (
+                            <>
+                                <div className={`grid gap-4 ${index === 1 ? "md:col-span-2" : index === 2 ? "md:col-span-1" : "md:col-span-full"}`}>
+                                    <div className="group relative">
+                                        <img className="h-auto w-full rounded-lg max-h-[400px] object-cover object-top" src={category.coverImage}
+                                            alt="" />
+                                        <Link to={`/product/${category.id}`}
+                                            className={"absolute inset-0 top-0 bottom-0 w-full duration-200 ease-in-out h-full bg-black bg-opacity-40 flex items-center justify-center opacity-100 group-hover:opacity-0 md:backdrop-blur-[2px]"}>
+                                            <span
+                                                className="font-medium text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-amber-500 "
+                                            >
+                                                {category.name}
+                                            </span>
+                                        </Link>
                                     </div>
-                                </>
-                            )
-                        }
+                                </div>
+                            </>
+                        )
                     })}
                 </div>
             </div>

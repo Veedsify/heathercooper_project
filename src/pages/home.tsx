@@ -1,10 +1,20 @@
 import Hero from "../components/main/hero";
 import HomeAboutSection from "../components/main/home_about_section";
 import Navbar from "../components/main/nav";
+import { Helmet } from "react-helmet";
+
 
 const Home = () => {
      return (
           <>
+               <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>
+                        Ice Investment Nig Ltd | Trade Company in Nigeria
+                    </title>
+                    <meta name="description" content="Ice Investment Nig Ltd started as a trading Company in Lagos on 30th August 1985, it is widely known for the Importation, manufacturing and distribution of fast consumer products nationwide, with presence in major cities across Nigeria and over 20 full time employees, the Company continues to grow and diversify its portfolio across various industries. At Ice Investment we are committed to offering our consumers high-quality household food products, Beverages, Wines, Skin Care and Pharmaceuticals, which are nourishing, healthy, and tasty. We take extra care to use only high-quality ingredients sourced from all around the World which are a delight to our consumers." />
+                    <link rel="canonical" href="https://iceinvestmentnig.com" />
+               </Helmet>
                <header className="relative z-50 select-none min-h-max transition-all duration-300">
                     <Navbar
                          image="https://via.placeholder.com/150"
@@ -14,7 +24,7 @@ const Home = () => {
                <Hero />
                <HomeAboutSection
                     title="Ice Investment Nig Ltd"
-                    description="Ice Investment Nig Ltd started as a trading Company in Lagos on 10th March 2015, it is widely known in the Importation, manufacturing and distribution of fast consumer products nationwide, with presence in major cities across Nigeria and over 20 full time employees, the Company continues to grow and diversify its portfolio across various industries."
+                    description="Ice Investment Nig Ltd started as a trading Company in Lagos on 30th August 1985, it is widely known for the Importation, manufacturing and distribution of fast consumer products nationwide, with presence in major cities across Nigeria and over 20 full time employees, the Company continues to grow and diversify its portfolio across various industries. At Ice Investment we are committed to offering our consumers high-quality household food products, Beverages, Wines, Skin Care and Pharmaceuticals, which are nourishing, healthy, and tasty. We take extra care to use only high-quality ingredients sourced from all around the World which are a delight to our consumers."
                     buttonLink="/about"
                     button="Abous Us"
                     showButton
@@ -30,7 +40,7 @@ const Home = () => {
                />
                <HomeAboutSection
                     title="Global Distribution Network"
-                    description="Over the years we’ve developed and grown a considerably enormous global distribution network as well as an army of strategic partners on every continent."
+                    description="Over the years we’ve developed and grown a considerably enormous global distribution network as well as an army of strategic partners on every continent. Doing well in Sports, Ice Investment has sent so many prominent youths out across the continent to showcase their talents in various Club Leagues."
                     image="/images/about/global.jpg"
                     fullWidth
                />

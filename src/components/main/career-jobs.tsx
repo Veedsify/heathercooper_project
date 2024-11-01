@@ -10,7 +10,7 @@ const CareerJobs = () => {
                     <div className="absolute w-full h-full top-0 left-0 bg-yellow-400 bg-opacity-95"></div>
                     <div className="px-8 py-10 md:py-28 md:px-20 z-50 relative">
                          <h2 className="mb-4 text-2xl md:text-3xl">
-                              Ekulo Group looks out for <strong> exceptional talent.</strong>
+                              Iceinvestment Group looks out for <strong> exceptional talent.</strong>
                          </h2>
                          <p className="mb-8 text-sm md:text-base">
                               Please visit our job board to view and <strong> apply for available job openings.</strong>
