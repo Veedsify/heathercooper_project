@@ -69,7 +69,7 @@ const Hero = () => {
                                    </Link>
                               </div>
                          </div>
-                         <img src="/images/products/soaps.jpg" className="absolute bottom-0 left-0 w-full h-full object-cover flex-1 brightness-50 bg-black" />
+                         <img src="/images/product_categories/food.jpg" className="absolute bottom-0 left-0 w-full h-full object-cover flex-1 brightness-50 bg-black" />
                     </div>
                </SwiperSlide>
                <SwiperSlide className="relative flex flex-col justify-center h-full w-full select-none">
@@ -87,7 +87,7 @@ const Hero = () => {
                                    </Link>
                               </div>
                          </div>
-                         <img src="/images/products/drinks.jpg" className="absolute bottom-0 left-0 w-full h-full object-cover flex-1 brightness-50 bg-black" />
+                         <img src="/images/product_categories/beverages.jpg" className="absolute bottom-0 left-0 w-full h-full object-cover flex-1 brightness-50 bg-black" />
                     </div>
                </SwiperSlide>
           </Swiper>

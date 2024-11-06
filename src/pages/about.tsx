@@ -40,15 +40,6 @@ const About = () => {
                         'Commitment'
                     ]}
                 />
-                <AboutValues
-                    title="Group Members"
-                    content={[
-                        'Quality',
-                        'Innovation',
-                        'Integrity',
-                        'Teamwork',
-                    ]}
-                />
                 <AboutPortfolio />
                 <AboutManagement 
                     title="Management Team"

@@ -9,7 +9,7 @@ export type ManagementTeamType = {
 export const managementTeam: ManagementTeamType[] = [
      {
           "id": "management-1",
-          "name": "JDr Isreal  Egwuonwu",
+          "name": "Dr Isreal  Egwuonwu",
           "position": "Chairman/CEO Ice Investment ",
           "image": "/images/management/image1.jpg"
      },

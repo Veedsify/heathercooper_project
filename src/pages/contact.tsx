@@ -118,11 +118,11 @@ const Contact = () => {
                                                   <h3 className="font-bold capitalize mb-2">
                                                        Branch  Office
                                                   </h3>
-                                                  {/* <p className="text-sm mb-5">
+                                                  <p className="text-sm mb-5">
                                                        No 8 Broad Street Western House Fourth Floor
                                                        <br />
                                                        Lagos Island
-                                                  </p> */}
+                                                  </p>
                                                   {/* <p className="text-sm mb-2">
                                                        <span className="font-bold">Phone:</span> +234 1 271 7150
                                                   </p> */}
