@@ -59,7 +59,7 @@ const Navbar = ({ }: NavbarProps) => {
                          <div>
                               <Link to="/" className="flex items-center gap-2">
                                    <img src="/logo.png" alt="Logo" width={70} />
-                                   <span className="font-bold tracking-tighter text-white text-xl hidden xl:block lg:text-black">
+                                   <span className="font-bold tracking-tighter text-white text-lg hidden xl:block lg:text-rose-500">
                                         Ice Investment
                                    </span>
                               </Link>

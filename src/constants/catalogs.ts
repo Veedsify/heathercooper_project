@@ -2,11 +2,12 @@ type CatalogsType = {
      categories: {
           id: string;
           name: string;
+          show_on_product: boolean;
           image: string;
           coverImage: string;
           products?: {
                id: string;
-               name: string;
+               name?: string;
                price: number;
                description: string;
                image: string;
@@ -41,6 +42,7 @@ export const catalogs: CatalogsType = {
      "categories": [
           {
                "id": "beverages",
+               "show_on_product": true,
                "name": "Beverages",
                "image": '/images/thumbs/wine.png',
                "coverImage": '/images/product_categories/beverages.jpg',
@@ -78,88 +80,90 @@ export const catalogs: CatalogsType = {
           },
           {
                "id": "cosmetics",
+               "show_on_product": true,
                "name": "Cosmetics",
                "image": '/images/thumbs/cosmetics.png',
                "coverImage": '/images/product_categories/cosmetics.jpg',
                "products": [
-                    {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
-                         price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+
                ]
           }, {
                "id": "pharmaceuticals",
+               "show_on_product": true,
                "name": "Pharmaceuticals",
                "image": '/images/thumbs/pills.png',
                "coverImage": '/images/product_categories/pharma.jpg',
                "products": [
-                    {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
-                         price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+
                ]
           }, {
                "id": "food",
+               "show_on_product": true,
                "name": "Food",
                "image": '/images/thumbs/food.png',
                "coverImage": '/images/product_categories/food.jpg',
                "products": [
                     {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
+                         id: "stairs",
+                         name: "Chianjays Cake",
                          price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+                         description: "",
+                         image: "/images/products/ChianjaysCake.jpeg"
+                    },
                ]
           }, {
                "id": "realestate",
+               "show_on_product": true,
                "name": "Real Estate",
                "image": '/images/thumbs/house.png',
-               "coverImage": '/realestate-cover.jpg',
+               "coverImage": '/images/real_estate/house.jpeg',
                "products": [
                     {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
+                         id: "house",
+                         // name: "Capri Sun",
                          price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+                         description: "",
+                         image: "/images/real_estate/house.jpeg"
+                    }, {
+                         id: "building",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/building.jpeg"
+                    },
+                    {
+                         id: "chandalier",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/chandalier.jpeg"
+                    },
+                    {
+                         id: "stairs",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/stairs.jpeg"
+                    },
                ]
           }, {
                "id": "wine",
+               "show_on_product": true,
                "name": "Wine",
                "image": '/images/thumbs/wine.png',
-               "coverImage": '/realestate-cover.jpg',
+               "coverImage": '/images/product_categories/wine.webp',
                "products": [
-                    {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
-                         price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+
                ]
           },
           {
                "id": "sports",
+               "show_on_product": false,
                "name": "Sports",
                "image": '/images/thumbs/sports.png',
                "coverImage": '/realestate-cover.jpg',
                "products": [
-                    {
-                         id: "hawaii-1",
-                         name: "HAWAIIAN TROPIC",
-                         price: 10.99,
-                         description: "A tropical sunscreen with SPF 30",
-                         image: "/images/products/hawaiian-tropic.jpg"
-                    }
+
                ]
           }
      ]

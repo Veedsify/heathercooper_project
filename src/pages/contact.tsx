@@ -19,7 +19,7 @@ const Contact = () => {
                          <div className="md:flex gap-8">
                               <div className="flex-1 bg-gray-100">
                                    <div className="mb-8">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.6810960475023!2d3.3606496729339206!3d6.454155293515476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8bb922bcb199%3A0x4e21e88912f85205!2s20%20North%20Ave%2C%20Apapa%2C%20Lagos%20102272%2C%20Lagos!5e0!3m2!1sen!2sng!4v1728840460779!5m2!1sen!2sng" style={{ height: '100%', width: '100%', aspectRatio: '4/3', border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7425357336856!2d3.4235361231203947!3d6.427114807644059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5301583a83b%3A0xf3a83dc61b4dbf31!2s1401B%20Tiamiyu%20Savage%20St%2C%20Victoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1731591799076!5m2!1sen!2sng" style={{ height: '100%', width: '100%', aspectRatio: '4/3', border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                    </div>
                                    <div className="p-1 md:p-8">
                                         <h2 className="font-semibold text-2xl mb-8 p-2">
