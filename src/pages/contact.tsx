@@ -37,7 +37,7 @@ const Contact = () => {
                                                        />
                                                   </div>
                                              </div>
-                                             <div className="flex gap-5 mb-5">
+                                             <div className="flex gap-4 mb-5">
                                                   <div className="flex-1">
                                                        <label className="block text-sm font-bold mb-2">
                                                             Email
