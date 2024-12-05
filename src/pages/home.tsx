@@ -34,7 +34,7 @@ const Home = () => {
         description="Founded as a trading company in Lagos on August 30, 1985, Ice Investment Nig Ltd. is well-known for importing, manufacturing, and being one of the top distributors of fast-food items and supermarket items in the country. It has more than 20 full-time employees and is present in major cities in Nigeria and West Africa.
 
 The business keeps expanding and diversifying its holdings in a number of different sectors. At Ice Investment, we are dedicated to providing our customers with wholesome, healthful, and delicious household food products, beverages and wines. To the satisfaction of our customers, we go to great lengths to use only the best ingredients from around the globe."
-        image="/images/about/laboratory.jpg"
+        image="/images/about/products2.jpg"
         flipped
         withBg
         fullWidth
