@@ -11,7 +11,7 @@ const Home = () => {
         <title>Ice Investment Nig Ltd | Trade Company in Nigeria</title>
         <meta
           name="description"
-          content="Ice Investment Nig Ltd started as a trading Company in Lagos on 30th August 1985, it is widely known for the Importation, manufacturing and distribution of fast consumer products nationwide, with presence in major cities across Nigeria and over 20 full time employees, the Company continues to grow and diversify its portfolio across various industries. At Ice Investment we are committed to offering our consumers high-quality household food products, Beverages, Wines, Skin Care and Pharmaceuticals, which are nourishing, healthy, and tasty. We take extra care to use only high-quality ingredients sourced from all around the World which are a delight to our consumers."
+          content="Nationwide distribution of premium supermarket products."
         />
         <link rel="canonical" href="https://iceinvestmentnig.com" />
       </Helmet>
@@ -20,9 +20,8 @@ const Home = () => {
       </header>
       <Hero />
       <HomeAboutSection
-        title="Ice Investment Nig Ltd"
-        description="Ice Investment Nig Ltd started as a trading Company in Lagos on 30th August 1985, it is widely known for the Importation, manufacturing and one of the leading distributors of fast consumer products and Super Markets items nationwide, with presence in major cities across Nigeria and West Africa, with over 20 full time employees. &nbsp; <br> <br>
-    The Company continues to grow and diversify its portfolio across various industries. At Ice Investment we are committed to offering our consumers high-quality household food products, Beverages, Wines, Skin Care and Pharmaceuticals, which are nourishing, healthy, and tasty. We take extra care to use only high-quality ingredients sourced from all around the World which are a delight to our consumers."
+        title="Ice Investment Nig Ltd (West Africa)"
+        description="Nationwide distribution of premium supermarket products. <br/> Founded as a trading company in Lagos on August 30, 1985, Ice Investment Nig Ltd. is well-known for importing, manufacturing, and being one of the top distributors of fast-food items and supermarket items in the country. It has more than 20 full-time employees and is present in major cities in Nigeria and West Africa. The business keeps expanding and diversifying its holdings in a number of different sectors. At Ice Investment, we are dedicated to providing our customers with wholesome, healthful, and delicious household food products, beverages and wines. To the satisfaction of our customers, we go to great lengths to use only the best ingredients from around the globe."
         buttonLink="/about"
         button="Abous Us"
         showButton
@@ -31,9 +30,7 @@ const Home = () => {
       />
       <HomeAboutSection
         title="International Quality Standards"
-        description="Founded as a trading company in Lagos on August 30, 1985, Ice Investment Nig Ltd. is well-known for importing, manufacturing, and being one of the top distributors of fast-food items and supermarket items in the country. It has more than 20 full-time employees and is present in major cities in Nigeria and West Africa.
-
-The business keeps expanding and diversifying its holdings in a number of different sectors. At Ice Investment, we are dedicated to providing our customers with wholesome, healthful, and delicious household food products, beverages and wines. To the satisfaction of our customers, we go to great lengths to use only the best ingredients from around the globe."
+        description="Our team works to uphold a culture of total quality management, guaranteeing excellence at every turn, from the items that are imported to the ones that we produce in Nigeria. To provide the finest for our clients, our factory conforms to ISO 9001-2015, an international quality standard."
         image="/images/about/products2.jpg"
         flipped
         withBg
