@@ -37,7 +37,7 @@ const HomeAboutSection = ({
                 } ${fullWidth && "mt-16"}`}
               >
                 {title}
-                <span className="h-[2px] w-1/3 absolute bottom-0 md:left-0 left-1/2 md:-translate-x-0 -translate-x-1/2 bg-amber-500"></span>
+                <span className="h-[2px] w-1/3 absolute bottom-0 md:left-0 left-1/2 md:-translate-x-0 -translate-x-1/2 bg-[#ea6768]"></span>
               </h2>
               <div
                 dangerouslySetInnerHTML={{ __html: description }}
@@ -48,7 +48,7 @@ const HomeAboutSection = ({
               {showButton && (
                 <Link
                   to={buttonLink}
-                  className="mt-6 bg-amber-500 text-white px-8 py-3 rounded inline-block hover:bg-amber-600 transition duration-200"
+                  className="mt-6 bg-[#ea6768] text-white px-8 py-3 rounded inline-block hover:bg-[#a84444] transition duration-200"
                 >
                   {button}
                 </Link>

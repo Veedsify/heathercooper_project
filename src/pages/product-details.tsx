@@ -36,6 +36,7 @@ const ProductDetails = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 gap-y-16">
             {products?.map((product) => (
               <div key={product.id} className="border rounded-lg group">
+                
                 <img
                   className="h-auto w-full rounded-lg aspect-[4/3] object-cover object-top mb-3 border-b"
                   src={product.image}
@@ -43,7 +44,7 @@ const ProductDetails = () => {
                 />
                 {product.name && (
                   <div className="p-4">
-                    <span className="font-medium text-lg text-center block group-hover:text-amber-500">
+                    <span className="font-medium text-lg text-center block group-hover:text-[#ea6768]">
                       <Link to={`/product/${product.id}`}>{product.name}</Link>
                     </span>
                   </div>

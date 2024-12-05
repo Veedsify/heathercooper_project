@@ -49,7 +49,7 @@ const Hero = () => {
               </p>
               <Link
                 to="/contact"
-                className="md:px-8 md:py-3 px-6 py-2 bg-amber-500 text-white rounded mt-4 inline-block"
+                className="md:px-8 md:py-3 px-6 py-2 bg-[#ea6768] text-white rounded mt-4 inline-block"
               >
                 Get Started
               </Link>
@@ -74,7 +74,7 @@ const Hero = () => {
               </p>
               <Link
                 to="/contact"
-                className="md:px-8 md:py-3 px-6 py-2 bg-amber-500 text-white rounded mt-4 inline-block"
+                className="md:px-8 md:py-3 px-6 py-2 bg-[#ea6768] text-white rounded mt-4 inline-block"
               >
                 Get Started
               </Link>
@@ -99,7 +99,7 @@ const Hero = () => {
               </p>
               <Link
                 to="/contact"
-                className="md:px-8 md:py-3 px-6 py-2 bg-amber-500 text-white rounded mt-4 inline-block"
+                className="md:px-8 md:py-3 px-6 py-2 bg-[#ea6768] text-white rounded mt-4 inline-block"
               >
                 Get Started
               </Link>

@@ -39,7 +39,7 @@ const AboutManagement = ({ title, teams }: AboutManagementProps) => {
                                    </p>
                                    {hasPhone(team) && (
                                         <>
-                                             <p className="text-center text-sm mb-1">
+                                             <p className="text-center text-sm mb-1 hidden">
                                                   {team.phone}
                                              </p>
                                              <p className="text-center text-sm mb-1">

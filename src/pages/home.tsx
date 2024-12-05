@@ -31,7 +31,9 @@ const Home = () => {
       />
       <HomeAboutSection
         title="International Quality Standards"
-        description="Our group strives to maintain a culture of total quality management- ensuring quality in every stage of what we do. From the products imported to the goods we manufacture in Nigeria. Our factory complies with international quality standards, ISO 9001-2015 to ensure that we give our customers the best. "
+        description="Founded as a trading company in Lagos on August 30, 1985, Ice Investment Nig Ltd. is well-known for importing, manufacturing, and being one of the top distributors of fast-food items and supermarket items in the country. It has more than 20 full-time employees and is present in major cities in Nigeria and West Africa.
+
+The business keeps expanding and diversifying its holdings in a number of different sectors. At Ice Investment, we are dedicated to providing our customers with wholesome, healthful, and delicious household food products, beverages and wines. To the satisfaction of our customers, we go to great lengths to use only the best ingredients from around the globe."
         image="/images/about/laboratory.jpg"
         flipped
         withBg
@@ -39,7 +41,7 @@ const Home = () => {
       />
       <HomeAboutSection
         title="Global Distribution Network"
-        description="Over the years we’ve developed and grown a considerably enormous global distribution network as well as an army of strategic partners on every continent. Doing well in Sports, Ice Investment has sent so many prominent youths out across the continent to showcase their talents in various Club Leagues."
+        description="Over the years we have developed and grown a considerably enormous global distribution network as well as an army of strategic partners across West Africa."
         image="/images/about/global.jpg"
         fullWidth
       />

@@ -20,15 +20,17 @@ const About = () => {
                 title="About Us"
                 image="/images/backgrounds/buildings.jpg"
             />
-            <section className="pt-10">
+            <section className="pt-10 lg:grid grid-cols-2">
                 <AboutContent
                     title="Our Vission"
-                    content="To become the largest producers and distributors of quality consumer products in the World."
+                    content="Our goal is to become one of the world's top distributors of supermarket goods."
                 />
                 <AboutContent
                     title="Our Mission"
-                    content="Building healthier Communities by providing affordable and quality products and services"
+                    content="Creating healthier communities through the provision of high-quality, reasonably priced goods and services."
                 />
+
+
                 <AboutValues
                     title="Core Values"
                     content={[
@@ -39,17 +41,18 @@ const About = () => {
                         'Innovation',
                         'Commitment'
                     ]}
-                />
+                    />
+                    
                 <AboutPortfolio />
-                <AboutManagement 
+            </section>
+                <AboutManagement
                     title="Management Team"
                     teams={managementTeam}
                 />
-                <AboutManagement 
+                <AboutManagement
                     title="Marketing Team"
                     teams={marketingTeam}
                 />
-            </section>
         </>
     );
 }

@@ -9,7 +9,7 @@ const ProductComponents = () => {
           <form action="">
             <input
               type="search"
-              className="p-3 placeholder:text-gray-400 text-sm leading-relaxed border-gray-700 focus-visible:outline-amber-500 focus-visible:border-amber-500 border block w-full"
+              className="p-3 placeholder:text-gray-400 text-sm leading-relaxed border-gray-700 focus-visible:outline-amber-500 focus-visible:border-[#ea6768] border block w-full"
               placeholder="Search For A Product"
             />
           </form>
@@ -40,7 +40,7 @@ const ProductComponents = () => {
                         "absolute inset-0 top-0 bottom-0 w-full duration-200 ease-in-out h-full bg-black bg-opacity-40 flex items-center justify-center opacity-100 group-hover:opacity-0 md:backdrop-blur-[2px]"
                       }
                     >
-                      <span className="font-medium text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-amber-500 ">
+                      <span className="font-medium text-white text-2xl md:text-4xl uppercase tracking-wider hover:text-[#ea6768] ">
                         {category.name}
                       </span>
                     </Link>

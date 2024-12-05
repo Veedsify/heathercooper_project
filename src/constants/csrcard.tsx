@@ -27,7 +27,7 @@ export const csrCards: CSRCard[] = [
           image: "/images/csr/community.jpg",
           title: "Strengthening Communities",
           link: "/csr/community",
-          content: "Our company actively assists victims of natural disasters. We contributed aid to casualties affected by the Ikeja bomb blast and flood victims in the past, and look to continue to strengthen the community by helping when such calamities occur.",
+          content: "Ice Investment is thriving in the sports industry and has sent a number of well-known young people to compete in different club leagues throughout the continent.",
           content_images: [
                "/images/csr/community.jpg",
                "/images/backgrounds/hero3.jpg",

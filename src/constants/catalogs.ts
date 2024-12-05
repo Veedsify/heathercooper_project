@@ -44,7 +44,7 @@ export const catalogs: CatalogsType = {
                "id": "beverages",
                "show_on_product": true,
                "name": "Beverages",
-               "image": '/images/thumbs/wine.png',
+               "image": '/images/thumbs/beverages.png',
                "coverImage": '/images/product_categories/beverages.jpg',
                "products": [
                     {
@@ -78,29 +78,11 @@ export const catalogs: CatalogsType = {
                ]
 
           },
-          {
-               "id": "cosmetics",
-               "show_on_product": true,
-               "name": "Cosmetics",
-               "image": '/images/thumbs/cosmetics.png',
-               "coverImage": '/images/product_categories/cosmetics.jpg',
-               "products": [
-
-               ]
-          }, {
-               "id": "pharmaceuticals",
-               "show_on_product": true,
-               "name": "Pharmaceuticals",
-               "image": '/images/thumbs/pills.png',
-               "coverImage": '/images/product_categories/pharma.jpg',
-               "products": [
-
-               ]
-          }, {
+            {
                "id": "food",
                "show_on_product": true,
                "name": "Food",
-               "image": '/images/thumbs/food.png',
+               "image": '/images/thumbs/food.jpg',
                "coverImage": '/images/product_categories/food.jpg',
                "products": [
                     {
@@ -110,6 +92,28 @@ export const catalogs: CatalogsType = {
                          description: "",
                          image: "/images/products/ChianjaysCake.jpeg"
                     },
+                    {
+                         id: "titus",
+                         name: "Titus",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/Titus.jpg"
+                    },
+                    {
+                         id: "penny",
+                         name: "Golden Penny",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/GoldenPenny.jpg"
+                    },
+                    {
+                         id: "oats",
+                         name: "Quaker Oats",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/QuakerOats.jpg"
+                    },
+
                ]
           }, {
                "id": "realestate",
@@ -124,7 +128,14 @@ export const catalogs: CatalogsType = {
                          price: 10.99,
                          description: "",
                          image: "/images/real_estate/house.jpeg"
+                    },  {
+                         id: "house1",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house1.jpg"
                     }, {
+
                          id: "building",
                          // name: "Capri Sun",
                          price: 10.99,
@@ -137,6 +148,20 @@ export const catalogs: CatalogsType = {
                          price: 10.99,
                          description: "",
                          image: "/images/real_estate/chandalier.jpeg"
+                    },
+                    {
+                         id: "house2",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house2.jpg"
+                    },
+                    {
+                         id: "house3",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house3.jpg"
                     },
                     {
                          id: "stairs",
@@ -153,6 +178,35 @@ export const catalogs: CatalogsType = {
                "image": '/images/thumbs/wine.png',
                "coverImage": '/images/product_categories/wine.webp',
                "products": [
+
+                     {
+                         id: "wine1",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/wine1.jpg"
+                    },
+                     {
+                         id: "wine2",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/wine2.jpg"
+                    },
+                     {
+                         id: "wine3",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/wine3.jpg"
+                    },
+                     {
+                         id: "wine4",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/products/wine4.jpg"
+                    },
 
                ]
           },

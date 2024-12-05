@@ -13,7 +13,7 @@ const Products = () => {
                </Helmet>
                <NavWithContent
                     title="Products"
-                    image="/images/backgrounds/buildings.jpg"
+                    image="/images/backgrounds/products.jpg"
                />
                <ProductComponents />
           </>
