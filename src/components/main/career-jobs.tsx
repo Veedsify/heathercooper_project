@@ -16,7 +16,7 @@ const CareerJobs = () => {
                               Please visit our job board to view and <strong> apply for available job openings.</strong>
                          </p>
                          <div>
-                              <Link to="/careers" className="inline-block bg-[#FF1D25] text-gray-300 text-sm md:text-base font-medium group hover:bg-yellow-500 ">
+                              <Link to="/careers" className="inline-block bg-[#FF1D25] text-gray-300 text-sm md:text-base font-medium group hover:bg-[#ca3d41] ">
                                    <span className="flex select-none group-hover transition-all duration-300">
                                         <span className="flex-1 p-5 text-sm">
                                              See available jobs listings

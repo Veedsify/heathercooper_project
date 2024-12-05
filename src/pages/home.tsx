@@ -26,7 +26,7 @@ const Home = () => {
         buttonLink="/about"
         button="Abous Us"
         showButton
-        image="/images/about/industry.jpg"
+        image="/images/product_categories/food.jpg"
         fullWidth
       />
       <HomeAboutSection
@@ -42,7 +42,7 @@ The business keeps expanding and diversifying its holdings in a number of differ
       <HomeAboutSection
         title="Global Distribution Network"
         description="Over the years we have developed and grown a considerably enormous global distribution network as well as an army of strategic partners across West Africa."
-        image="/images/about/global.jpg"
+        image="/images/about/products.jpg"
         fullWidth
       />
     </>

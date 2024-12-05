@@ -20,7 +20,7 @@ const About = () => {
                 title="About Us"
                 image="/images/backgrounds/buildings.jpg"
             />
-            <section className="pt-10 lg:grid grid-cols-2">
+            <section className="pt-10 lg:flex items-center justify-center">
                 <AboutContent
                     title="Our Vission"
                     content="Our goal is to become one of the world's top distributors of supermarket goods."
@@ -42,9 +42,9 @@ const About = () => {
                         'Commitment'
                     ]}
                     />
-                    
-                <AboutPortfolio />
+
             </section>
+                <AboutPortfolio />
                 <AboutManagement
                     title="Management Team"
                     teams={managementTeam}

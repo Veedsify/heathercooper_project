@@ -36,9 +36,9 @@ const ProductDetails = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 gap-y-16">
             {products?.map((product) => (
               <div key={product.id} className="border rounded-lg group">
-                
+
                 <img
-                  className="h-auto w-full rounded-lg aspect-[4/3] object-cover object-top mb-3 border-b"
+                  className="h-auto w-full rounded-lg aspect-[1/1] object-cover object-top mb-3 border-b"
                   src={product.image}
                   alt={product.name}
                 />
