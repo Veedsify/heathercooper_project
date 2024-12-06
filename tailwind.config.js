@@ -6,9 +6,23 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        screens: {
+          sm: "100%",
+          md: "768px",
+          lg: "1200px",
+        },
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+        },
+      },
       fontFamily: {
-        sans: ["DM Sans", "sans-serif"],
-        mono: ["DM Sans", "monospace"],
+        sans: ["Instrument Sans", "sans-serif"],
+        mono: ["Instrument Sans", "monospace"],
       }
     },
   },

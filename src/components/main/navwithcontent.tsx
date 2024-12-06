@@ -29,7 +29,7 @@ const NavWithContent = ({
                {/* Overlay content */}
                <div className="relative z-10 flex flex-col w-full">
                     {/* Navbar */}
-                    <header className="relative select-none min-h-[118px] transition-all duration-300">
+                    <header className="relative select-none lg:min-h-[118px] transition-all duration-300">
                          <Navbar image="https://via.placeholder.com/150" type="full" />
                     </header>
                     {/* Centered content */}

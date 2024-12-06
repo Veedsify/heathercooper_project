@@ -1,27 +1,39 @@
+export type ManagementTeamType = {
+  id: string;
+  name: string;
+  position: string;
+  image: string;
+};
 
-type ManagementTeamType = {
-     id: string;
-     name: string;
-     position: string;
-     image: string;
-}[]
-
-export const managementTeam: ManagementTeamType = [
-     {
-          "id": "management-1",
-          "name": "John Keneddy (MBA)",
-          "position": "CEO",
-          "image": "/images/management/image1.jpg"
-     },
-     {
-          "id": "management-2",
-          "name": "Mr Matthew Doe (OCR)",
-          "position": "CFO",
-          "image": "/images/management/image2.jpg"
-     },{
-          "id": "management-3",
-          "name": "Mrs. Jane Doe (MBA)",
-          "position": "COO",
-          "image": "/images/management/image3.jpg"
-     }
-]
+export const managementTeam: ManagementTeamType[] = [
+  {
+    id: "management-1",
+    name: "Dr Isreal  Egwuonwu",
+    position: "Chairman/CEO Ice Investment ",
+    image: "/images/management/mrisrael.jpeg",
+  },
+  {
+    id: "management-2",
+    name: "Mr Chinedu Egwuonwu",
+    position: "Director",
+    image: "/images/management/chinedu.jpeg",
+  },
+  {
+    id: "management-3",
+    name: "Mr Paul Oha",
+    position: "Manager",
+    image: "/images/management/mrpaul.jpeg",
+  },
+  {
+    id: "management-4",
+    name: "Mr Johnny Usang ",
+    position: "Financial Controller",
+    image: "/images/management/mrusang.jpeg",
+  },
+  {
+    id: "management-5",
+    name: "Mrs Queen Chinenye Okwuchukwu",
+    position: "Director of Media And Publicity",
+    image: "/images/management/mrsqueen.jpeg",
+  },
+];

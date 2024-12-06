@@ -7,6 +7,7 @@ import ProductDetails from "./pages/product-details";
 import Careers from "./pages/careers";
 import CSR from "./pages/csr";
 import Contact from "./pages/contact";
+import CSRDetails from "./pages/csr_details";
 
 export const routes = createBrowserRouter([
      {
@@ -34,6 +35,9 @@ export const routes = createBrowserRouter([
                }, {
                     path: '/contact',
                     element: <Contact />
+               },{
+                    path: "/csr/:csr_id",
+                    element: <CSRDetails />
                }
           ]
      }
