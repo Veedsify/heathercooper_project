@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="flex-1 flex items-center h-full md:w-1/2 mt-10 mb-10 md:mt-0 md:mb-0 z-10">
             <div className="text-white">
               <h1 className="text-3xl lg:text-5xl mb-4 font-bold tracking-widest text-wrap max-w-2xl">
-                INNOVATIVE PHARMACEUTICALS
+              Ice Investment Nig. Ltd. (West Africa)
               </h1>
               <p className="text-sm lg:text-base max-w-xl leading-loose">
                 Nationwide distribution of premium quality pharmaceutical
@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
           </div>
           <img
-            src="/images/product_categories/food.jpg"
+            src="/images/product_categories/food_cover.jpg"
             className="absolute bottom-0 left-0 w-full h-full object-cover flex-1 brightness-50 bg-black"
           />
         </div>

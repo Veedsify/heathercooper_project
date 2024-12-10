@@ -37,7 +37,6 @@ const HomeAboutSection = ({
                 } ${fullWidth && "mt-16"}`}
               >
                 {title}
-                <span className="h-[2px] w-1/3 absolute bottom-0 md:left-0 left-1/2 md:-translate-x-0 -translate-x-1/2 bg-[#ea6768]"></span>
               </h2>
               <div
                 dangerouslySetInnerHTML={{ __html: description }}

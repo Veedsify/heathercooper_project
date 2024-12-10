@@ -83,7 +83,7 @@ export const catalogs: CatalogsType = {
                "show_on_product": true,
                "name": "Food",
                "image": '/images/thumbs/food.jpg',
-               "coverImage": '/images/product_categories/food.jpg',
+               "coverImage": '/images/product_categories/food_cover.jpg',
                "products": [
                     {
                          id: "stairs",

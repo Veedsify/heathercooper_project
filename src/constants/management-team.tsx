@@ -15,13 +15,13 @@ export const managementTeam: ManagementTeamType[] = [
   {
     id: "management-2",
     name: "Mr Chinedu Egwuonwu",
-    position: "Director",
+    position: "Executive Director",
     image: "/images/management/chinedu.jpeg",
   },
   {
     id: "management-3",
     name: "Mr Paul Oha",
-    position: "Manager",
+    position: "General Manager",
     image: "/images/management/mrpaul.jpeg",
   },
   {
