@@ -11,6 +11,10 @@ const AboutManagement = ({ title, teams }: AboutManagementProps) => {
           return (team as MarketingTeamType).phone !== undefined;
      };
 
+     const IsImmageHidden = (team: ManagementTeamType | MarketingTeamType): team is MarketingTeamType => {
+          return (team as MarketingTeamType).imageHidden === true;
+     }
+
      return (
           <div className="py-20 p-2 relative">
                <img
@@ -23,14 +27,16 @@ const AboutManagement = ({ title, teams }: AboutManagementProps) => {
                     <h3 className="text-xl font-bold mb-4 uppercase">
                          {title}
                     </h3>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-20">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-20 py-6">
                          {teams.map((team, index) => (
                               <div key={index}>
-                                   {/* <img
+                                   {!IsImmageHidden(team) && (
+                                        <img
                                         src={team.image}
                                         alt={team.name}
                                         className="aspect-[3/4] w-full object-cover object-top block mb-3"
-                                   /> */}
+                                        />
+                                   )}
                                    <h3 className="text-center text-lg md:text-2xl mb-2">
                                         {team.name}
                                    </h3>
