@@ -249,9 +249,9 @@ export const catalogs: CatalogsType = {
                          description: "",
                          image: "/images/sports/sport4.jpeg"
                     },
-       
 
-                   
+
+
 
                     {
                          id: "house",
