@@ -22,7 +22,6 @@ export default {
       },
       fontFamily: {
         sans: ["Sora", "sans-serif"],
-        mono: ["Sora"],
       }
     },
   },

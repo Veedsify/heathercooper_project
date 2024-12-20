@@ -6,6 +6,6 @@ import { routes } from './routes.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={routes} />
+    <RouterProvider router={routes}/>
   </StrictMode>,
 )
