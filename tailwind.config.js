@@ -21,8 +21,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Instrument Sans", "sans-serif"],
-        mono: ["Instrument Sans", "monospace"],
+        sans: ["Sora", "sans-serif"],
+        mono: ["Sora"],
       }
     },
   },

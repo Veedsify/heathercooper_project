@@ -78,7 +78,7 @@ export const catalogs: CatalogsType = {
                ]
 
           },
-            {
+          {
                "id": "food",
                "show_on_product": true,
                "name": "Food",
@@ -128,7 +128,7 @@ export const catalogs: CatalogsType = {
                          price: 10.99,
                          description: "",
                          image: "/images/real_estate/house.jpeg"
-                    },  {
+                    }, {
                          id: "house1",
                          // name: "Capri Sun",
                          price: 10.99,
@@ -170,6 +170,49 @@ export const catalogs: CatalogsType = {
                          description: "",
                          image: "/images/real_estate/stairs.jpeg"
                     },
+                    {
+                         id: "house5",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house5.jpeg"
+                    }, {
+                         id: "house6",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house6.jpeg"
+                    }, {
+                         id: "house7",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house7.jpeg"
+                    }, {
+                         id: "house8",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house8.jpeg"
+                    }, {
+                         id: "house9",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house9.jpeg"
+                    }, {
+                         id: "house10",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house10.jpeg"
+                    }, {
+                         id: "house11",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house11.jpeg"
+                    }
                ]
           }, {
                "id": "wine",
@@ -179,28 +222,28 @@ export const catalogs: CatalogsType = {
                "coverImage": '/images/product_categories/wine.webp',
                "products": [
 
-                     {
+                    {
                          id: "wine1",
                          // name: "Capri Sun",
                          price: 10.99,
                          description: "",
                          image: "/images/products/wine1.jpg"
                     },
-                     {
+                    {
                          id: "wine2",
                          // name: "Capri Sun",
                          price: 10.99,
                          description: "",
                          image: "/images/products/wine2.jpg"
                     },
-                     {
+                    {
                          id: "wine3",
                          // name: "Capri Sun",
                          price: 10.99,
                          description: "",
                          image: "/images/products/wine3.jpg"
                     },
-                     {
+                    {
                          id: "wine4",
                          // name: "Capri Sun",
                          price: 10.99,

@@ -60,14 +60,9 @@ const Navbar = ({}: NavbarProps) => {
     >
       <div className="container mx-auto">
         <div className="flex justify-between lg:items-center border-gray-50">
-          <div>
-            <Link to="/" className="flex items-center gap-2">
-              <img src="/logo.png" alt="Logo" width={70} />
-              <span className="font-bold tracking-tighter text-white text-lg hidden xl:block lg:text-rose-500">
-                Ice Investment
-              </span>
-            </Link>
-          </div>
+          <Link to="/" className="">
+            <img src="/logo.png" alt="Logo" className="md:w-44 w-40" />
+          </Link>
           <div
             className={`${
               isMenuOpen
@@ -77,7 +72,7 @@ const Navbar = ({}: NavbarProps) => {
           >
             <ul
               ref={ref}
-              className={`flex flex-1 flex-col lg:flex-row w-full bg-cyan-950 lg:bg-transparent text-white left-0 lg:shadow-none shadow px-4 py-10 lg:py-0 lg:relative gap-8 duration-300 ease-in-out`}
+              className={`flex flex-1 flex-col lg:flex-row w-full bg-cyan-950 lg:bg-transparent text-white left-0 lg:shadow-none shadow px-4 py-10 lg:py-0 lg:relative gap-4 duration-300 ease-in-out`}
             >
               {navlinks.map((item, index) => (
                 <NavLink
@@ -102,7 +97,7 @@ const Navbar = ({}: NavbarProps) => {
               )}
             </button>
           </div>
-          <div className="space-x-2 hidden lg:block">
+          <div className="hidden lg:flex gap-2">
             {socialmedia.map((item, index) => (
               <Link
                 target="_blank"

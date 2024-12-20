@@ -8,25 +8,25 @@ export type ManagementTeamType = {
 export const managementTeam: ManagementTeamType[] = [
   {
     id: "management-1",
-    name: "Dr Isreal  Egwuonwu",
+    name: "Dr Egwuonwu Chukwuwendu Israel",
     position: "Chairman/CEO Ice Investment ",
     image: "/images/management/mrisrael.jpeg",
   },
   {
     id: "management-2",
-    name: "Mr Chinedu Egwuonwu",
+    name: "Mr Egwuonwu Chinedu Sunday",
     position: "Executive Director",
     image: "/images/management/chinedu.jpeg",
   },
   {
     id: "management-3",
-    name: "Mr Paul Oha",
+    name: "Mr Paul Oha Nnadi",
     position: "General Manager",
     image: "/images/management/mrpaul.jpeg",
   },
   {
     id: "management-4",
-    name: "Mr Johnny Usang ",
+    name: "Mr Johnny Usang Ebah",
     position: "Financial Controller",
     image: "/images/management/mrusang.jpeg",
   },
