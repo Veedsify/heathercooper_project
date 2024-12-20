@@ -134,44 +134,43 @@ export const catalogs: CatalogsType = {
                          price: 10.99,
                          description: "",
                          image: "/images/real_estate/house1.jpg"
-                    }
-                    
-                    // {
+                    },
+                    {
 
-                    //      id: "building",
-                    //      // name: "Capri Sun",
-                    //      price: 10.99,
-                    //      description: "",
-                    //      image: "/images/real_estate/building.jpeg"
-                    // },
-                    // {
-                    //      id: "chandalier",
-                    //      // name: "Capri Sun",
-                    //      price: 10.99,
-                    //      description: "",
-                    //      image: "/images/real_estate/chandalier.jpeg"
-                    // },
-                    // {
-                    //      id: "house2",
-                    //      // name: "Capri Sun",
-                    //      price: 10.99,
-                    //      description: "",
-                    //      image: "/images/real_estate/house2.jpg"
-                    // },
-                    // {
-                    //      id: "house3",
-                    //      // name: "Capri Sun",
-                    //      price: 10.99,
-                    //      description: "",
-                    //      image: "/images/real_estate/house3.jpg"
-                    // },
-                    // {
-                    //      id: "stairs",
-                    //      // name: "Capri Sun",
-                    //      price: 10.99,
-                    //      description: "",
-                    //      image: "/images/real_estate/stairs.jpeg"
-                    // },
+                         id: "building",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/building.jpeg"
+                    },
+                    {
+                         id: "chandalier",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/chandalier.jpeg"
+                    },
+                    {
+                         id: "house2",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house2.jpg"
+                    },
+                    {
+                         id: "house3",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/house3.jpg"
+                    },
+                    {
+                         id: "stairs",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/real_estate/stairs.jpeg"
+                    },
                ]
           }, {
                "id": "wine",
