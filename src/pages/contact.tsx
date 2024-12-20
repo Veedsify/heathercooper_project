@@ -87,7 +87,7 @@ const Contact = () => {
 
                     </p>
                     <p className="text-sm mb-2">
-                                                       <span className="font-bold">Phone:</span> +01-8201522, +2348161597765
+                                                       <span className="font-bold">Phone:</span> 09059009948, +2349030001535
                                                   </p>
                     {/* <p className="text-sm">
                       <span className="font-bold">Email: </span>
@@ -102,8 +102,12 @@ const Contact = () => {
                     No 8 Broad Street WesternHouse Fourth Floor,<br />
                     Lagos Island
                     </p>
-                    <p className="text-sm mb-2">
-                                                       <span className="font-bold">Phone:</span> +01-8201522, +2348161597765</p>
+                    <p className="text-sm">
+                                                       <span className="font-bold">Email: </span>
+                                                       <a href="mailto:example@mail.com">
+                                                       iceinvestment2015@gmail.com 
+                                                       </a>
+                                                  </p>
                     {/* <p className="text-sm">
                                                        <span className="font-bold">Email: </span>
                                                        <a href="mailto:example@mail.com">
@@ -123,7 +127,7 @@ const Contact = () => {
                       <br />
                       Badagry Road, Lagos Nigeria.
                     </p>
-                    <p className="text-sm mb-2"><span className="font-bold">Phone:</span>  +2348161597765	</p>
+                    <p className="text-sm mb-2"><span className="font-bold">Phone:</span> 09059009948, +2349030001535	</p>
                     {/* <p className="text-sm">
                       <span className="font-bold">Email: </span>
                       <a href="mailto:example@mail.com">

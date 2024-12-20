@@ -14,7 +14,7 @@ const ProductComponents = () => {
             />
           </form>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
           {catalogs.categories.map((category, index) => {
             if (category.show_on_product === false) return null;
             return (

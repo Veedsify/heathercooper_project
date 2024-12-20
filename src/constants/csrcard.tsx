@@ -19,7 +19,7 @@ export const csrCards: CSRCard[] = [
           id: 2,
           image: "/images/csr/food.jpg",
           title: "Ice Food Court",
-          content: "We work assiduously to end hunger by providing food donations to institutions, homes for vulnerable persons and the less fortunate. Some charities we support include: Hearts of Gold Children Hospice, Modupe Cole Memorial Child Care & Treatment Home School, SOS Children's Villages Nigeria and SO-Said Charity Home for Vulnerable persons."
+          content: "By donating food to organisations and houses for the less fortunate and those in need, we diligently strive to eradicate hunger. SOS Children's Villages Nigeria, SO-Said Charity Home for Vulnerable Persons, and 6th Avenue Young Boys Football Academy are a few of the charities we support."
      },
      {
           id: 3,

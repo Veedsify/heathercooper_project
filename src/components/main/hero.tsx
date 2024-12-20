@@ -44,7 +44,7 @@ const Hero = () => {
               Ice Investment Nig. Ltd. (West Africa)
               </h1>
               <p className="text-sm lg:text-base max-w-xl leading-loose">
-                Nationwide distribution of premium quality pharmaceutical
+                Nationwide distribution of premium quality Supermarket
                 products.
               </p>
               <Link

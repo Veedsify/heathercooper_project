@@ -26,11 +26,11 @@ const AboutManagement = ({ title, teams }: AboutManagementProps) => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-20">
                          {teams.map((team, index) => (
                               <div key={index}>
-                                   <img
+                                   {/* <img
                                         src={team.image}
                                         alt={team.name}
                                         className="aspect-[3/4] w-full object-cover object-top block mb-3"
-                                   />
+                                   /> */}
                                    <h3 className="text-center text-lg md:text-2xl mb-2">
                                         {team.name}
                                    </h3>

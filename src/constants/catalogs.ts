@@ -134,42 +134,44 @@ export const catalogs: CatalogsType = {
                          price: 10.99,
                          description: "",
                          image: "/images/real_estate/house1.jpg"
-                    }, {
+                    }
+                    
+                    // {
 
-                         id: "building",
-                         // name: "Capri Sun",
-                         price: 10.99,
-                         description: "",
-                         image: "/images/real_estate/building.jpeg"
-                    },
-                    {
-                         id: "chandalier",
-                         // name: "Capri Sun",
-                         price: 10.99,
-                         description: "",
-                         image: "/images/real_estate/chandalier.jpeg"
-                    },
-                    {
-                         id: "house2",
-                         // name: "Capri Sun",
-                         price: 10.99,
-                         description: "",
-                         image: "/images/real_estate/house2.jpg"
-                    },
-                    {
-                         id: "house3",
-                         // name: "Capri Sun",
-                         price: 10.99,
-                         description: "",
-                         image: "/images/real_estate/house3.jpg"
-                    },
-                    {
-                         id: "stairs",
-                         // name: "Capri Sun",
-                         price: 10.99,
-                         description: "",
-                         image: "/images/real_estate/stairs.jpeg"
-                    },
+                    //      id: "building",
+                    //      // name: "Capri Sun",
+                    //      price: 10.99,
+                    //      description: "",
+                    //      image: "/images/real_estate/building.jpeg"
+                    // },
+                    // {
+                    //      id: "chandalier",
+                    //      // name: "Capri Sun",
+                    //      price: 10.99,
+                    //      description: "",
+                    //      image: "/images/real_estate/chandalier.jpeg"
+                    // },
+                    // {
+                    //      id: "house2",
+                    //      // name: "Capri Sun",
+                    //      price: 10.99,
+                    //      description: "",
+                    //      image: "/images/real_estate/house2.jpg"
+                    // },
+                    // {
+                    //      id: "house3",
+                    //      // name: "Capri Sun",
+                    //      price: 10.99,
+                    //      description: "",
+                    //      image: "/images/real_estate/house3.jpg"
+                    // },
+                    // {
+                    //      id: "stairs",
+                    //      // name: "Capri Sun",
+                    //      price: 10.99,
+                    //      description: "",
+                    //      image: "/images/real_estate/stairs.jpeg"
+                    // },
                ]
           }, {
                "id": "wine",
@@ -212,11 +214,68 @@ export const catalogs: CatalogsType = {
           },
           {
                "id": "sports",
-               "show_on_product": false,
+               "show_on_product": true,
                "name": "Sports",
                "image": '/images/thumbs/sports.png',
-               "coverImage": '/realestate-cover.jpg',
+               "coverImage": '/images/sports/sport2.jpeg',
                "products": [
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport1.jpeg"
+                    },
+
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport2.jpeg"
+                    },
+
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport3.jpeg"
+                    },
+
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport4.jpeg"
+                    },
+       
+
+                   
+
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport7.jpeg"
+                    },
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport8.jpeg"
+                    },
+
+                    {
+                         id: "house",
+                         // name: "Capri Sun",
+                         price: 10.99,
+                         description: "",
+                         image: "/images/sports/sport9.jpeg"
+                    },
 
                ]
           }
